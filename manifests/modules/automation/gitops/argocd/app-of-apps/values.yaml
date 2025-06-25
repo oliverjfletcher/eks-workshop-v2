@@ -4,7 +4,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     # HIGHLIGHT
-    repoURL: https://github.com/oliverjfletcher/eks-workshop-v2/
+    repoURL: https://github.com/oliverjfletcher/eks-workshop-v2/manifests/modules/automation/gitops/argocd
     targetRevision: main
 
 # HIGHLIGHT
