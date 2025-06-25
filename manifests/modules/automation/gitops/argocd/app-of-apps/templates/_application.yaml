@@ -16,7 +16,7 @@ spec:
   source:
     repoURL: {{ $root.Values.spec.source.repoURL }}
     targetRevision: {{ $root.Values.spec.source.targetRevision }}
-    path: apps-kustomization/{{  $application.name }}
+    path: {{ $root.Values.spec.source.basePath }}/apps-kustomization/{{ $application.name }}
   syncPolicy:
     automated:
       prune: true
